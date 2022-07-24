@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <head>
+
     <meta property="og:title" content="정연수 - 프로필링크">
     <meta property="og:discription" content="정연수의 프로필 링크입니다.">
-    <meta property="text/javascript" src="춘장이.jpg">
+    <meta property="text/javascript" src="춘장grim.jpg">
+
     <title>정연수</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
     <style>
 
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-        * {
-            font-family: "Pretendard",serif;
-        }
-
         body {
-            background-color: #44398A;
+            background-color: #e2e6e0;
         }
+        
         .profile {
             width: 100px;
             height: 100px;
         
             border-radius: 100%;
-            border: 2px solid white;  
+            border: 2px solid rgb(32, 50, 45);  
 
-            background-image: url(춘장이.jpg);
+            background-image: url(춘장grim.jpg);
             background-position: center;
             background-size: cover;    
             }
 
-            .main {
-                color: white;
-                font-size: 20px;
+        .main {
+
+                color: rgb(32, 50, 45);
+                font-size: 30px;
 
                 margin-top: 20px;
                 margin-bottom: 10px;
+
+                font-family: 'Mochiy Pop One', sans-serif;
+
             }   
             
-            .sub {
-                color: white;
+        .sub {
+
+                font-family: 'DotGothic16', sans-serif;
+
+                color: rgb(32, 50, 45);
                 font-size: 14px;
 
                 margin-top: 0px;
                 margin-bottom: 30px;
             }
             
-            .wrap {
+        .wrap {
+
+                font-family: 'DotGothic16', sans-serif;
 
                 width: 300px;
-                margin: 30px auto 0px auto;
+                margin: 30px auto 30px auto;
 
                 display: flex;
                 flex-direction: column;
@@ -53,18 +64,18 @@
                 align-items: center;
             }
 
-            .wrap > a {
+        .wrap > a {
                 width: 300px;
                 height: 50px;
 
-                background-color: white;
-                border-radius: 8px;
+                background-color: rgb(46, 66, 51);
+                border-radius: 30px;
 
-                margin-bottom: 10px;
+                margin-bottom: 15px;
 
                 font-size: 14px;
                 font-weight: bold;
-                color: #44398a;
+                color: #e2e6e0;
 
                 display: flex;
                 flex-direction: column;
@@ -73,25 +84,72 @@
 
                 text-decoration: none;
 
-                box-shadow: 3px 3px 5px 0px black;
+                box-shadow: 3px 3px 5px 0px rgb(69, 62, 59);
             }
-            .wrap > a:hover {
-            background-color: #f2f2f2;
-            color: green;
+
+        .wrap > a:hover {
+            background-color: #f3dc91;
+            color: rgb(18, 68, 74);
             font-size: 16px;
             } 
+
+        .header {
+
+            text-shadow: -1px 0 #f2f2f2, 0 1px #f2f2f2, 1px 0 #f2f2f2, 0 -1px #f2f2f2;
+
+            font-family: 'DotGothic16', sans-serif;
+
+            background-color: rgb(46, 66, 51);  
+            grid-area: header;  
+
+            /*background-image: url(checkHeader.png);*/
+
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .footer{
+
+            text-shadow: -1px 0 #f2f2f2, 0 1px #f2f2f2, 1px 0 #f2f2f2, 0 -1px #f2f2f2;
+
+            font-family: 'DotGothic16', sans-serif;
+
+            background-color: rgb(46, 66, 51);
+
+            /*background-image: url(checkHeader.png);*/
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+
 
             </style>
 </head>
 <body>
-    <div class="wrap">
+    
+<div class="header">ヨンヨン</div>
+
+<div class="wrap">
+
         <div class="profile"></div>
-        <h1 class="main"> 정연수 </h1>
-        <p class="sub"> 정연수 프로필입니다. </p>
-        <a target="_blank" href="https://www.instagram.com/ch0rik/"> instagram </a>
-        <a target="_blank" href="https://blog.naver.com/yeonn2014"> naver </a>
-        <a target="_blank" href="https://google.com"> Portfolio </a>
-        <a target="_blank" href="https://google.com"> profile </a>
+
+        <h1 class="main">ジョンヨンス</h1>
+
+        <p class="sub">ジョンヨンスのプロフィールです。 </p>
+
+        <a target="_blank" href="https://www.instagram.com/ch0rik/"> 📁 インスタグラム </a>
+        <a target="_blank" href="https://blog.naver.com/yeonn2014"> 🥫 ネイバー </a>
+        <a target="_blank" href="https://google.com"> 🚀 ポとポリオ </a>
+        <a target="_blank" href="https://google.com"> 🪐 プロフィール </a>
+
     </div>
+
+    <div class="footer">JeongYeonSu</div>
+
+
 </body>
 </html>
